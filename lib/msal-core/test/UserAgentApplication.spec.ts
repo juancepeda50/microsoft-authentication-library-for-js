@@ -9,6 +9,7 @@ import {
     AuthError,
     ClientAuthError,
     ClientConfigurationError,
+    InteractionRequiredAuthError,
     ServerError,
     Authority,
     AuthResponse
@@ -37,7 +38,7 @@ describe("UserAgentApplication.ts Class", function () {
     const TEST_LOGOUT_URI = "https://localhost:8081/logout.html";
 
     // Test MSAL config params
-    const TENANT = 'common';
+    const TENANT = "common";
     const MSAL_CLIENT_ID = "0813e1d1-ad72-46a9-8665-399bba48c201";
     const MSAL_TENANT_ID = "124ds324-43de-n89m-7477-466fefs45a85";
     const validAuthority = DEFAULT_INSTANCE + TENANT;
