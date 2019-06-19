@@ -8,6 +8,8 @@ export { CacheResult } from "./UserAgentApplication";
 export { CacheLocation, Configuration } from "./Configuration";
 export { AuthenticationParameters } from "./AuthenticationParameters";
 export { AuthResponse } from "./AuthResponse";
+export { BrowserCrypto } from './BrowserCrypto';
+export { PopKey } from './PopKey';
 
 // Errors
 export { AuthError } from "./error/AuthError";
